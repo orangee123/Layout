@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Freedom Company"
+    android:gravity="top"
+    android:textSize="10pt"
+    android:background="#FF00FF"
+    android:singleLine="true"
+    android:padding="10dip"
+    android:layout_weight="2"
+    />
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Moving United"
+        android:gravity="right"
+    android:textSize="15pt"
+    android:background="#9F35FF"
+    android:padding="17dip"
+    android:layout_weight="2"
+    />
+</LinearLayout>

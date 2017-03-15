@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+
+	<AnalogClock
+		android:id="@+id/aclock"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="236dp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="当前时间："
+		android:layout_above="@+id/aclock"
+		android:layout_toLeftOf="@+id/dclock" />
+
+	<DigitalClock
+		android:id="@+id/dclock"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/aclock"
+		android:layout_centerHorizontal="true" />
+</RelativeLayout>
+
